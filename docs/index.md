@@ -15,6 +15,9 @@ classDiagram
 
 class First
 class Second
+class Third
 
 First ..> Second: depends on
+First ..|> Third
+Third --> Second
 ```
